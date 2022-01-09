@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>platform--65</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <%- include('./layouts/css/style.ejs') %>
+        <div class="d-flex justify-content-between">
+            <%- include('./layouts/partials/sidenav.ejs') %>
+                <div class="Packages">
+                    <h3>Starters</h3>
+                    <div class="d-flex flex-column i ">
+                        <div class="d-flex flex-row items" id="card">
+                            <div class="card">
+                                <img class="pImages"
+                                    src="https://i.pinimg.com/736x/e4/f5/58/e4f558680d52a4e946e4fe6e589cb432--west-palm-beach-fastfood.jpg"
+                                    alt="">
+                            </div>
+                            <div class="cardText">
+                                <h3>Chicken Tikka Roll</h3>
+                                <p class="ImgText"> chicken is marinated with spices and cooked in a creamy sauce
+                                    of
+                                    onion,
+                                    garlic and bread.</p>
+                            </div>
+                            <div class=" d-flex flex-column  justify-content-between cardPrice">
+
+                                <h6> <i class="fas fa-rupee-sign"></i>180</h6>
+                                <div class="d-flex flex-row " id="button">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="remove"></ion-icon>
+                                        </i> </button>
+                                    <input type="number" value="0">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="add"></ion-icon>
+                                        </i></button>
+                                    <button class="btn-s basket">
+                                        <i class="basket">
+                                            <ion-icon name="basket"></ion-icon>
+                                        </i>
+
+                                    </button>
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="d-flex flex-row items" id="card">
+                            <div class="card">
+                                <img class="pImages" src="https://i.ytimg.com/vi/xUuDW9uZTvg/maxresdefault.jpg" alt="">
+                            </div>
+                            <div class="cardText">
+                                <h3>Alfaham Chicken</h3>
+                                <p class="ImgText">Afghani Chicken add with afghan spices and grilled in the coal</p>
+                            </div>
+                            <div class=" d-flex flex-column  justify-content-between cardPrice">
+
+                                <h6><i class="fas fa-rupee-sign"></i>300</h6>
+                                <div class="d-flex flex-row " id="button">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="remove"></ion-icon>
+                                        </i> </button>
+                                    <input type="number" value="0">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="add"></ion-icon>
+                                        </i></button>
+                                    <i class="basket">
+                                        <ion-icon name="basket"></ion-icon>
+                                    </i>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="d-flex flex-row items" id="card">
+                            <div class="card">
+                                <img class="pImages"
+                                    src="https://www.ruchikrandhap.com/wp-content/uploads/2017/09/Chicken-Lollipops-Indo-Chinese-3-1.jpg"
+                                    alt="">
+                            </div>
+                            <div class="cardText">
+                                <h3>Chicken Lollipop</h3>
+                                <p class="ImgText">Chicken dum Biryani consists of 3 legs and Mashroom65 200g</p>
+                            </div>
+                            <div class=" d-flex flex-column  justify-content-between cardPrice">
+
+                                <h6><i class="fas fa-rupee-sign"></i>249</h6>
+                                <div class="d-flex flex-row " id="button">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="remove"></ion-icon>
+                                        </i> </button>
+                                    <input type="number" value="0">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="add"></ion-icon>
+                                        </i></button>
+                                    <i class="basket">
+                                        <ion-icon name="basket"></ion-icon>
+                                    </i>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="d-flex flex-row items" id="card">
+                            <div class="card">
+                                <img class="pImages"
+                                    src="https://www.thespruceeats.com/thmb/cN3Gi6kC5eQStq9dz6rEAVADwBk=/4288x2848/filters:fill(auto,1)/szechuan-chicken-table-464505078-5acb7a3bba6177003729cefa.jpg"
+                                    alt="">
+                            </div>
+                            <div class="cardText">
+                                <h3>Schezwan Chicken</h3>
+                                <p class="ImgText">Mutton Biryani with original Spices and Crunchy Gobi 65</p>
+                            </div>
+                            <div class=" d-flex flex-column  justify-content-between cardPrice">
+
+                                <h6><i class="fas fa-rupee-sign"></i>249</h6>
+                                <div class="d-flex flex-row " id="button">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="remove"></ion-icon>
+                                        </i> </button>
+                                    <input type="number" value="0">
+                                    <button class="btn-s"><i>
+                                            <ion-icon name="add"></ion-icon>
+                                        </i></button>
+                                    <i class="basket">
+                                        <ion-icon name="basket"></ion-icon>
+                                    </i>
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <%- include('./layouts/partials/info.ejs') %>
+
+        </div>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="menu.js" defer></script>
+
+</body>
+
+</html>
