@@ -4,7 +4,7 @@ const res = require('express/lib/response');
  
 const app = express();
  
- 
+const port = process.env.PORT || 3000
 app.use(express.json())
 app.use(express.static(__dirname + '/public'));
 
@@ -30,6 +30,6 @@ app.get('/deserts/milkshake',(req,res)=>{
     res.render('milkshake.ejs')
 })
  
-app.listen('2080',( )=>{
-    console.log("listening on the port 2080")
+app.listen(port,( )=>{
+    console.log("listening on the port 3000")
 })
