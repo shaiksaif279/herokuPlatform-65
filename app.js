@@ -8,7 +8,9 @@ const port = process.env.PORT || 3000
 app.use(express.json())
 app.use(express.static(__dirname + '/public'));
 
- 
+app.get('/',(req,res)=>{
+ res.send("this is a app")
+}
 app.get('/menu/maincourse',async(req,res)=>{
     res.render('Main Course.ejs')
 })
